@@ -1,0 +1,14 @@
+<div id="app">
+   <!-- <input type="text" v-model="message" v-on:keyup.enter="addtodo">
+   {{message}}
+   <ul>
+      <li v-for="value in todos">
+         {{value}}
+         <button v-on:click="deletetodo($index)">X</button>
+      </li>
+   </ul> -->
+   <!-- <button v-on:click="reverseMessage">点击我一下</button> -->
+   <input type="text" v-model="firstName">
+   <input type="text" v-model="lastName">
+   {{fullName}}
+</div>
